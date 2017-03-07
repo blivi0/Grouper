@@ -5,12 +5,8 @@ $(document).ready(function() {
 	$('.search-peer').keyup(searchFilter);
 	$(window).scroll(backToTop);
 
-	$('.peerLink').click(function(e) {
-		ga("send", "event", "link", "click");
-	});
-
-	$('.peerBtn').click(function(e) {
-		ga("send", "event", "button", "click");
+	$('.peerProfile').click(function(e) {
+		ga("send", "event", "peer", "click");
 	});
 });
 
