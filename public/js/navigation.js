@@ -1,0 +1,3 @@
+Handlebars.registerPartial(
+  'navigation', {{navigation}}
+);

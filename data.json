@@ -5,9 +5,7 @@
       "name" : "Test User",
       "email" : "test@ucsd.edu",
       "groups" : {
-        "abc" : [],
-        "def" : [],
-        "ghi" : []
+        "abc" : []
       },
       "invites" : {},
       "avatar" : "default.png",
@@ -244,7 +242,7 @@
     },
     {
       "id" : "666",
-      "name" : "Julie Yoshioka",
+      "name" : "Joanna Yoshioka",
       "email" : "wtvien@ucsd.edu",
       "groups" : {
         "abc" : [],
@@ -268,6 +266,33 @@
       },
       "bio" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent egestas justo lectus, vitae vehicula sapien sagittis in. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi ultricies posuere ligula, non suscipit tortor commodo scelerisque. Aliquam non est quis augue molestie aliquet. Nullam nec libero ac erat pulvinar dapibus in in massa. Cras eget mi mollis, luctus justo ut, lacinia lorem. Curabitur molestie mauris quis dolor dictum semper. Integer at nisl volutpat lorem lobortis rhoncus. Fusce accumsan dolor molestie velit commodo vestibulum. Fusce tortor enim, fermentum id sapien in, facilisis auctor ex. Proin rutrum vulputate augue, ut fermentum ex lobortis a. Aliquam viverra nisi at pretium placerat. Vivamus aliquet dui libero, sit amet interdum arcu interdum ac. Aenean ac mollis lectus. Curabitur faucibus non dolor vitae sodales. Aliquam vulputate rhoncus aliquet.",
       "roles" : "Vestibulum varius rutrum mauris, eu fringilla lorem euismod et. Aenean eget magna eget mi convallis tincidunt sed in mi. Nulla non elit commodo ante ultricies cursus. Nulla facilisi. Nunc rhoncus fermentum urna in maximus. Cras gravida tincidunt magna, sed fermentum nulla dictum id. Nullam nec enim nisl. Phasellus massa ante, dictum nec hendrerit quis, vehicula in nibh."
+    },
+    {
+      "id" : "777",
+      "name" : "Taylor Hill",
+      "email" : "wtvien@ucsd.edu",
+      "groups" : {
+        "abc" : [],
+        "def" : [],
+        "ghi" : [],
+        "jkl" : []
+      },
+      "invites" : {},
+      "avatar" : "default.png",
+      "major" : "Cognitive Science",
+      "year" : "3rd",
+      "location" : "On-campus",
+      "availability" : {
+        "Mon" : ["3:00 PM", "6:00 PM"],
+        "Tues" : ["2:00 PM", "8:00 PM"],
+        "Wed" : ["3:00 PM", "6:00 PM"],
+        "Thurs" : ["2:00 PM", "8:00 PM"],
+        "Fri" : ["3:00 PM", "6:00 PM"],
+        "Sat" : [],
+        "Sun" : []
+      },
+      "bio" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent egestas justo lectus, vitae vehicula sapien sagittis in. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi ultricies posuere ligula, non suscipit tortor commodo scelerisque. Aliquam non est quis augue molestie aliquet. Nullam nec libero ac erat pulvinar dapibus in in massa. Cras eget mi mollis, luctus justo ut, lacinia lorem. Curabitur molestie mauris quis dolor dictum semper. Integer at nisl volutpat lorem lobortis rhoncus. Fusce accumsan dolor molestie velit commodo vestibulum. Fusce tortor enim, fermentum id sapien in, facilisis auctor ex. Proin rutrum vulputate augue, ut fermentum ex lobortis a. Aliquam viverra nisi at pretium placerat. Vivamus aliquet dui libero, sit amet interdum arcu interdum ac. Aenean ac mollis lectus. Curabitur faucibus non dolor vitae sodales. Aliquam vulputate rhoncus aliquet.",
+      "roles" : "Vestibulum varius rutrum mauris, eu fringilla lorem euismod et. Aenean eget magna eget mi convallis tincidunt sed in mi. Nulla non elit commodo ante ultricies cursus. Nulla facilisi. Nunc rhoncus fermentum urna in maximus. Cras gravida tincidunt magna, sed fermentum nulla dictum id. Nullam nec enim nisl. Phasellus massa ante, dictum nec hendrerit quis, vehicula in nibh."
     }
   ],
   "courses" : [
@@ -278,7 +303,7 @@
       "title" : "Interaction Design",
       "instructor" : "Scott Klemmer",
       "groupSize" : 3,
-      "students" : ["000", "123", "456", "789", "111", "222", "333", "444", "555", "666"]
+      "students" : ["000", "123", "456", "789", "111", "222", "333", "444", "555", "666", "777"]
     },
     {
       "id" : "def",
@@ -286,7 +311,7 @@
       "name" : "CSE 110",
       "title" : "Software Engineering",
       "groupSize" : 8,
-      "students" : ["000", "123", "456", "789", "111", "222", "333", "444", "555", "666"]
+      "students" : ["000", "123", "456", "789", "111", "222", "333", "444", "555", "666", "777"]
     },
     {
       "id" : "ghi",
@@ -294,7 +319,7 @@
       "name" : "CSE 141L",
       "title" : "Project in Computer Architecture",
       "groupSize" : 2,
-      "students" : ["000", "123", "456", "789", "111", "222", "333", "444", "555", "666"]
+      "students" : ["000", "123", "456", "789", "111", "222", "333", "444", "555", "666", "777"]
     },
     {
       "id" : "jkl",
@@ -302,7 +327,7 @@
       "name" : "CSE 190",
       "title" : "Entrepreneurship",
       "groupSize" : 5,
-      "students" : ["123", "456", "789", "111", "222", "333", "444", "555", "666"]
+      "students" : ["123", "456", "789", "111", "222", "333", "444", "555", "666", "777"]
     },
     {
       "id" : "mno",

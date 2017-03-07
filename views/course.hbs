@@ -2,6 +2,22 @@
 
 <html>
 <head>
+
+<!-- Google Analytics Content Experiment code -->
+<script>function utmx_section(){}function utmx(){}(function(){var
+k='142001853-0',d=document,l=d.location,c=d.cookie;
+if(l.search.indexOf('utm_expid='+k)>0)return;
+function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+</script><script>utmx('url','A/B');</script>
+<!-- End of Google Analytics Content Experiment code -->
+
 	<title>{{title}}</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width", inital-scale="1.0">
@@ -12,61 +28,8 @@
 </head>
 
 <body>
+  {{> navigation}}
   <div class="container">
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/index">Grouper <span class="glyphicon glyphicon-home"></span></a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#" id="helpModalLink" data-toggle="modal" data-target="#helpModal">Help</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Account <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="/my-profile">My Profile</a></li>
-                <li><a href="/my-groups">My Groups</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="/">Sign Out</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <div class="modal fade" id="helpModal" role="dialog">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title">Help Documentation</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          </div>
-
-          <div class="modal-body">
-            <ul>
-              <li>To get started, add a course using the course password provided by your instructor.</li>
-              <li> Under <b>My Account</b> in the top right, go to <b>My Profile</b> to fill in your profile.</li>
-              <li>To see your peers, click the <u>View course</u> button. You can filter by <i>Name</i>, <i>Year</i>, or <i>Location</i>. Click on a peer who seems like a good fit and is looking for more group member(s).</li>
-              <li>To form a group with a peer, click the <u>Add to My Group</u> button at the bottom of the profile.  Once you have added this person to your group, you cannot remove this person - you can only leave that group.</li>
-              <li>Under <b>My Account</b> in the top right, go to <b>My Groups</b> to view your groups. If you choose to <u>Leave Group</u>, you will be removing yourself from that group. </li>
-            </ul>
-          </div>
-
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="course">
       <h1 class="page-header" align="center">{{title}}</h1>
       <p>Welcome to {{title}}! You can form groups of {{groupSize}}.</p>
@@ -93,7 +56,7 @@
 
           <div class="media-body">
 						{{#if @root.view_A}}
-            	<a href={{url}}><h3 class="media-heading">{{name}}</h3></a>
+            	<a href={{url}} class="peerLink"><h3 class="media-heading">{{name}}</h3></a>
 						{{else}}
 							<h3 class="media-heading">{{name}}</h3>
 						{{/if}}
@@ -104,7 +67,7 @@
             <label for="inputLocation" class="control-label">Location:</label> {{location}} <br>
 
 						{{#unless @root.view_A}}
-							<a href={{url}} class="btn btn-default" >View Profile</a>
+							<a href={{url}} class="btn btn-primary peerBtn">View Profile</a>
 						{{/unless}}
         	</div>
         </div>
@@ -119,5 +82,16 @@
   <script src="/js/jquery-3.1.1.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
   <script src="/js/course.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-93044675-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
 </body>
 </html>

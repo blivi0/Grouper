@@ -1,3 +1,7 @@
+var hbs = require('hbs');
+var nav = require('../views/partials/navigation.hbs');
+hbs.registerPartial('navigation', nav);
+
 var data = require('../data.json');
 
 /* GET home page. */
