@@ -1,15 +1,15 @@
 //var data = require(./public/data.json);
 
 $(document).ready(function() {
-	$('select').change(updatePeerList);	
+	$('select').change(updatePeerList);
 	$('.search-peer').keyup(searchFilter);
 	$(window).scroll(backToTop);
 
-	$('#'+url+'peerLink').click(function(e) {
+	$('.peerLink').click(function(e) {
 		ga("send", "event", "link", "click");
 	});
 
-	$('#'+url+'peerBtn').click(function(e) {
+	$('.peerBtn').click(function(e) {
 		ga("send", "event", "button", "click");
 	});
 });
@@ -18,7 +18,7 @@ function updatePeerList(e) {
 	// Prevent following link
 	//e.preventDefault();
 
-	var year = $('#year-sel').val(); 
+	var year = $('#year-sel').val();
 	var location = $('#location-sel').val();
 	var visibleTracker;
 
@@ -62,4 +62,3 @@ function searchFilter(e) {
 function backToTop() {
 
 }
-
