@@ -1,6 +1,20 @@
+
 body {
   padding: 50px;
+} /*
+  background-color: #E0E4CC;
 }
+  h1, h2, h3, h4, h5{ 
+    color: #69D2E7;
+}
+
+p {
+  color: #F38630;
+}
+
+.navbar {
+  background-color: #A7DBD8;
+}*/
 
 /* Home */
 .navbar-fixed-top {
@@ -23,6 +37,11 @@ body {
 .placeholder {
   margin-bottom: 20px;
 }
+
+.placeholder-sm {
+  margin-bottom: 10px;
+}
+
 .course-panel {
   height: 200px;
 }

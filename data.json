@@ -303,7 +303,8 @@
       "title" : "Interaction Design",
       "instructor" : "Scott Klemmer",
       "groupSize" : 3,
-      "students" : ["000", "123", "456", "789", "111", "222", "333", "444", "555", "666", "777"]
+      "students" : ["000", "123", "456", "789", "111", "222", "333", "444", "555", "666", "777"],
+      "studentNames" : ["David Lee", " Whitney Vien", " David Amadeo", " Alex Jones", " Tiffany Nguyen", " Ivy Smith", " James Turner", " Christian Valdez", " Joanna Yoshioka", " Taylor Hill"]
     },
     {
       "id" : "def",
@@ -336,7 +337,8 @@
       "title" : "Special Project",
       "instructor" : "Scott Klemmer",
       "groupSize" : 2,
-      "students" : []
+      "students" : [],
+      "studentNames" : ["No students yet. Please share your course password."]
     }
   ],
   "instructors" : [

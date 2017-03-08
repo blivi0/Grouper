@@ -1,15 +1,21 @@
 var data = require('../data.json');
 
-exports.view = function(req, res) {
-  var courses = data.courses[0];
+function loadCourse(courseId) {
+  var course = data.courses.find(function(c) { return c.id === courseId; });
 
-  res.render('course-settings', {
+  return {
     title : 'Course Settings',
-    id : courses.id,
-    pw : courses.pw,
-    name : courses.name,
-    title : courses.title,
-    groupSize : courses.groupSize,
-    students : courses.students
-   });
+    id : course.id,
+    pw : course.pw,
+    name : course.name,
+    title : course.title,
+    groupSize : course.groupSize,
+    students : course.studentNames
+  };
+};
+
+
+exports.view = function(req, res) {
+  var courseData = loadCourse(req.params.courseId);
+  res.render('course-settings', courseData);
 };
