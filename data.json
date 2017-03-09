@@ -5,7 +5,10 @@
       "name" : "Test User",
       "email" : "test@ucsd.edu",
       "groups" : {
-        "abc" : []
+        "abc" : [],
+        "def" : [],
+        "ghi" : [],
+        "jkl" : []
       },
       "invites" : {},
       "avatar" : "default.png",
