@@ -16,30 +16,30 @@
   <div class="container">
     <div class="peer">
       <div class="row">
-        <div class="col-xs-12 col-sm-4">
+        <div class="col-xs-12 col-sm-3">
           <img src="/images/{{avatar}}" class="img-responsive">
         </div>
 
-        <div class="col-xs-12 col-sm-8">
+        <div class="col-xs-12 col-sm-9">
           <h1 class="col-xs-12 page-header">{{name}}
             <a class="col-xs-12 col-sm-3 col-md-2 btn btn-default pull-right" href="/edit-profile">Edit Profile</a>
           </h1>
           <div class="row-info">
-            <label class="control-label"><b>Major</b></label> {{major}}
+            <b>Major</b> {{major}}
           </div>
 
           <div class="row-info">
-            <label class="control-label"><b>Year</b></label> {{year}}
+            <b>Year</b> {{year}}
           </div>
 
           <div class="row-info">
-            <label class="control-label"><b>Location</b></label> {{location}}
+            <b>Location</b> {{location}}
           </div>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-xs-12 col-sm-4">
+        <div class="col-xs-12 col-sm-3">
             <b>Tentative schedule</b>
             {{#each days}}
             <div class="form-group">
@@ -49,12 +49,12 @@
             {{/each}}
         </div>
 
-        <div class="col-xs-12 col-sm-8">
-            <div class="row"><label>Personal Bio</label><br>
+        <div class="col-xs-12 col-sm-9">
+            <div class="row"><b>Personal Bio</b><br>
 							{{bio}}
 						</div>
 
-            <div class="row"><label>Team Roles</label><br>
+            <div class="row"><b>Team Roles</b><br>
 							{{roles}}
 						</div>
         </div>
