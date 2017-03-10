@@ -26,7 +26,7 @@ function addSelectOptions(result) {
     if (user.location === loc)
       $('#inputLocation option').last().attr('selected', 'selected');
   }
-  var days = ['Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sun'];
+  var days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
   for (let day of days) {
     $('#input' + day + 'From').timepicker({ defaultTime : user.availability[day][0] || false });
     $('#input' + day + 'To').timepicker({ defaultTime : user.availability[day][1] || false });
@@ -44,4 +44,3 @@ function readURL(input) {
         reader.readAsDataURL(input.files[0]);
     }
 }
-

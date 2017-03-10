@@ -6,19 +6,17 @@ exports.view = function(req, res) {
 };
 
 exports.login = function(req, res) {
-  var user = data.students.find(function(s) { return s.email === req.body.email });
-  
-  //TODO: if proftest@ucsd.edu then redirect to /instructor-index
 
-  if (user /* && user.password === req.body.password */) {
+  var user = data.students.find(function(s) { return s.email === req.body.email });
+console.log(user);
+
+  if (user) {
     if (data.students[0] !== user) {
       data.students.splice(data.students.indexOf(user), 1);
       data.students.splice(0, 0, user);
     }
-
     res.redirect('/index');
   } else {
-    // TODO: Incorrect login
     res.redirect('/');
   }
 };
@@ -26,10 +24,8 @@ exports.login = function(req, res) {
 exports.registerUser = function(req, res) {
   var user = data.students.find(function(s) { return s.email === req.body.email });
   if (user) {
-    // TODO: user already exists
     res.redirect('/');
   } else {
-    // TODO: store password
     user = {
       id : shortid.generate(),
       name : req.body.name,

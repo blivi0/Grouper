@@ -7,41 +7,41 @@
 	<meta name="viewport" content="width=device-width", inital-scale="1.0">
 
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
-	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href="/css/lavish-bootstrap.css" rel="stylesheet">
   <link href="/css/style.css" rel="stylesheet">
 </head>
 
 <body>
   {{> navigation}}
   <div class="container">
-		<h1 class="page-header" align="center">{{courseName}}</h1>
+		<h1 class="page-header" align="left">{{courseName}}</h1>
 
     <div class="peer">
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-3">
           <img src="/images/{{avatar}}" class="img-responsive">
         </div>
 
-        <div class="col-sm-8">
-          <h1 class="page-header">{{name}}</h1>
+        <div class="col-sm-9">
+          <h1>{{name}}</h1><hr>
 
           <div class="row-info">
-            <label for="inputMajor" class="control-label">Major</label> {{major}}
+            <b>Major</b> {{major}}
           </div>
 
           <div class="row-info">
-            <label for="inputYear" class="control-label">Year</label> {{year}}
+            <b>Year</b> {{year}}
           </div>
 
           <div class="row-info">
-            <label for="inputLocation" class="control-label">Location</label> {{location}}
+            <b>Location</b> {{location}}
           </div>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-times">
-            <b>Tentative schedule:</b>
+        <div class="col-sm-3">
+            <b>Tentative schedule</b>
             {{#each days}}
             <div class="form-group">
               <label>{{day}}</label> {{from}}
@@ -50,12 +50,12 @@
             {{/each}}
         </div>
 
-        <div class="col-sm-8">
-            <div class="row"><label for="inputBio">Personal Bio</label><br>
+        <div class="col-sm-9">
+            <div><b>Personal Bio</b><br>
 							{{bio}}
 						</div>
-
-            <div class="row"><label for="inputRoles">Team Roles</label><br>
+            <br>
+            <div><b>Team Roles</b><br>
 							{{roles}}
 						</div>
         </div>
@@ -91,7 +91,7 @@
 		            </div>
 
 		            <div class="modal-body">
-		              You've joined <i>{{name}}</i>'s group! Check <b>My Groups</b> under My Account to view your groups!
+		             <i>{{name}}</i> has been added to your group! Check <b>My Groups</b> under My Account to view your groups!
 		            </div>
 
 		            <div class="modal-footer"> <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close">Close</button>

@@ -1,5 +1,22 @@
+
 body {
   padding: 50px;
+  font-family: "Open Sans", "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+h1,h2,h4,h5,h6,.h1,.h2,.h4,.h5,.h6 {
+  font-family: "Open Sans", "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:500;
+  line-height:1.2;
+  color: #154765;
+}
+
+h3, .h3 {
+  font-family: "Open Sans", "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:500;
+  line-height:1.2;
+  color: #5c7c8d;
 }
 
 /* Home */
@@ -23,6 +40,11 @@ body {
 .placeholder {
   margin-bottom: 20px;
 }
+
+.placeholder-sm {
+  margin-bottom: 10px;
+}
+
 .course-panel {
   height: 200px;
 }
@@ -69,6 +91,7 @@ body {
   margin-bottom: 10px;
 }
 
+/*
 .col-times {
   width:33.33333333%;
   float: left;
@@ -77,6 +100,7 @@ body {
   padding-right: 15px;
   padding-left: 30px;
 }
+*/
 
 .edit-btn {
   margin-top: 30px;

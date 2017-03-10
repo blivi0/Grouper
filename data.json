@@ -5,7 +5,10 @@
       "name" : "Test User",
       "email" : "test@ucsd.edu",
       "groups" : {
-        "abc" : []
+        "abc" : [],
+        "def" : [],
+        "ghi" : [],
+        "jkl" : []
       },
       "invites" : {},
       "avatar" : "default.png",
@@ -14,9 +17,9 @@
       "location": "",
       "availability" : {
         "Mon" : ["", ""],
-        "Tues" : ["", ""],
+        "Tue" : ["", ""],
         "Wed" : ["", ""],
-        "Thurs" : ["", ""],
+        "Thu" : ["", ""],
         "Fri" : ["", ""],
         "Sat" : [],
         "Sun" : []
@@ -41,9 +44,9 @@
       "location": "Off-campus",
       "availability" : {
         "Mon" : ["3:00 PM", "6:00 PM"],
-        "Tues" : ["2:00 PM", "8:00 PM"],
+        "Tue" : ["2:00 PM", "8:00 PM"],
         "Wed" : ["3:00 PM", "6:00 PM"],
-        "Thurs" : ["2:00 PM", "8:00 PM"],
+        "Thu" : ["2:00 PM", "8:00 PM"],
         "Fri" : ["3:00 PM", "6:00 PM"],
         "Sat" : [],
         "Sun" : []
@@ -68,9 +71,9 @@
       "location" : "Off-campus",
       "availability" : {
         "Mon" : ["3:00 PM", "6:00 PM"],
-        "Tues" : ["2:00 PM", "8:00 PM"],
+        "Tue" : ["2:00 PM", "8:00 PM"],
         "Wed" : ["3:00 PM", "6:00 PM"],
-        "Thurs" : ["2:00 PM", "8:00 PM"],
+        "Thu" : ["2:00 PM", "8:00 PM"],
         "Fri" : ["3:00 PM", "6:00 PM"],
         "Sat" : [],
         "Sun" : []
@@ -95,9 +98,9 @@
       "location" : "On-campus",
       "availability" : {
         "Mon" : ["3:00 PM", "6:00 PM"],
-        "Tues" : ["2:00 PM", "8:00 PM"],
+        "Tue" : ["2:00 PM", "8:00 PM"],
         "Wed" : ["3:00 PM", "6:00 PM"],
-        "Thurs" : ["2:00 PM", "8:00 PM"],
+        "Thu" : ["2:00 PM", "8:00 PM"],
         "Fri" : ["3:00 PM", "6:00 PM"],
         "Sat" : [],
         "Sun" : []
@@ -122,9 +125,9 @@
       "location" : "Off-campus",
       "availability" : {
         "Mon" : ["1:00 PM", "5:00 PM"],
-        "Tues" : ["3:00 PM", "9:00 PM"],
+        "Tue" : ["3:00 PM", "9:00 PM"],
         "Wed" : ["1:00 PM", "5:00 PM"],
-        "Thurs" : ["2:00 PM", "8:00 PM"],
+        "Thu" : ["2:00 PM", "8:00 PM"],
         "Fri" : ["3:00 PM", "6:00 PM"],
         "Sat" : [],
         "Sun" : []
@@ -149,9 +152,9 @@
       "location" : "On-campus",
       "availability" : {
         "Mon" : ["3:00 PM", "6:00 PM"],
-        "Tues" : ["2:00 PM", "8:00 PM"],
+        "Tue" : ["2:00 PM", "8:00 PM"],
         "Wed" : ["3:00 PM", "6:00 PM"],
-        "Thurs" : ["2:00 PM", "8:00 PM"],
+        "Thu" : ["2:00 PM", "8:00 PM"],
         "Fri" : ["3:00 PM", "6:00 PM"],
         "Sat" : [],
         "Sun" : []
@@ -176,9 +179,9 @@
       "location" : "On-campus",
       "availability" : {
         "Mon" : ["1:00 PM", "5:00 PM"],
-        "Tues" : ["3:00 PM", "9:00 PM"],
+        "Tue" : ["3:00 PM", "9:00 PM"],
         "Wed" : ["1:00 PM", "5:00 PM"],
-        "Thurs" : ["2:00 PM", "8:00 PM"],
+        "Thu" : ["2:00 PM", "8:00 PM"],
         "Fri" : ["3:00 PM", "6:00 PM"],
         "Sat" : [],
         "Sun" : []
@@ -203,9 +206,9 @@
       "location" : "Off-campus",
       "availability" : {
         "Mon" : ["3:00 PM", "6:00 PM"],
-        "Tues" : ["2:00 PM", "8:00 PM"],
+        "Tue" : ["2:00 PM", "8:00 PM"],
         "Wed" : ["3:00 PM", "6:00 PM"],
-        "Thurs" : ["2:00 PM", "8:00 PM"],
+        "Thu" : ["2:00 PM", "8:00 PM"],
         "Fri" : ["3:00 PM", "6:00 PM"],
         "Sat" : [],
         "Sun" : []
@@ -230,9 +233,9 @@
       "location" : "Off-campus",
       "availability" : {
         "Mon" : ["3:00 PM", "6:00 PM"],
-        "Tues" : ["2:00 PM", "8:00 PM"],
+        "Tue" : ["2:00 PM", "8:00 PM"],
         "Wed" : ["3:00 PM", "6:00 PM"],
-        "Thurs" : ["2:00 PM", "8:00 PM"],
+        "Thu" : ["2:00 PM", "8:00 PM"],
         "Fri" : ["3:00 PM", "6:00 PM"],
         "Sat" : [],
         "Sun" : []
@@ -257,9 +260,9 @@
       "location" : "Off-campus",
       "availability" : {
         "Mon" : ["3:00 PM", "6:00 PM"],
-        "Tues" : ["2:00 PM", "8:00 PM"],
+        "Tue" : ["2:00 PM", "8:00 PM"],
         "Wed" : ["3:00 PM", "6:00 PM"],
-        "Thurs" : ["2:00 PM", "8:00 PM"],
+        "Thu" : ["2:00 PM", "8:00 PM"],
         "Fri" : ["3:00 PM", "6:00 PM"],
         "Sat" : [],
         "Sun" : []
@@ -284,9 +287,9 @@
       "location" : "On-campus",
       "availability" : {
         "Mon" : ["3:00 PM", "6:00 PM"],
-        "Tues" : ["2:00 PM", "8:00 PM"],
+        "Tue" : ["2:00 PM", "8:00 PM"],
         "Wed" : ["3:00 PM", "6:00 PM"],
-        "Thurs" : ["2:00 PM", "8:00 PM"],
+        "Thu" : ["2:00 PM", "8:00 PM"],
         "Fri" : ["3:00 PM", "6:00 PM"],
         "Sat" : [],
         "Sun" : []
@@ -303,7 +306,8 @@
       "title" : "Interaction Design",
       "instructor" : "Scott Klemmer",
       "groupSize" : 3,
-      "students" : ["000", "123", "456", "789", "111", "222", "333", "444", "555", "666", "777"]
+      "students" : ["000", "123", "456", "789", "111", "222", "333", "444", "555", "666", "777"],
+      "studentNames" : ["David Lee", " Whitney Vien", " David Amadeo", " Alex Jones", " Tiffany Nguyen", " Ivy Smith", " James Turner", " Christian Valdez", " Joanna Yoshioka", " Taylor Hill"]
     },
     {
       "id" : "def",
@@ -336,7 +340,8 @@
       "title" : "Special Project",
       "instructor" : "Scott Klemmer",
       "groupSize" : 2,
-      "students" : []
+      "students" : [],
+      "studentNames" : ["No students yet. Please share your course password."]
     }
   ],
   "instructors" : [

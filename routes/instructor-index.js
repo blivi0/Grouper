@@ -7,7 +7,7 @@ exports.view = function(req, res) {
   var courses = [];
   for (let courseId in user.myCourses) {
     let course = data.courses.find(function(c) { return c.id === courseId; });
-    course.url = '/course/' + courseId;
+    course.url = '/course-settings/' + courseId;
     courses.push(course);
   }
   res.render('instructor-index', {
