@@ -55,20 +55,12 @@
           </div>
 
           <div class="media-body">
-						{{#if @root.view_A}}
-            	<a href={{url}} class="peerProfile"><h3 class="media-heading">{{name}}</h3></a>
-						{{else}}
-							<h3 class="media-heading">{{name}}</h3>
-						{{/if}}
+						<h3 class="media-heading">{{name}}</h3>
 						<span class="text-muted">Looking for <b>{{groupStatus}}</b> more group member(s)</span><br>
-
             <label for="inputMajor" class="control-label">Major:</label> {{major}} <br>
             <label for="inputYear" class="control-label">Year:</label> {{year}} <br>
             <label for="inputLocation" class="control-label">Location:</label> {{location}} <br>
-
-						{{#unless @root.view_A}}
-							<a href={{url}} class="btn btn-primary peerProfile">View Profile</a>
-						{{/unless}}
+						<a href={{url}} class="btn btn-primary peerProfile">View Profile</a>
         	</div>
         </div>
         <hr>
