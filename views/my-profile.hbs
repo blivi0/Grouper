@@ -16,30 +16,30 @@
   <div class="container">
     <div class="peer">
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-xs-12 col-sm-4">
           <img src="/images/{{avatar}}" class="img-responsive">
         </div>
 
-        <div class="col-sm-8">
-          <h1 class="page-header">{{name}}
-            <a class="btn btn-default pull-right" href="/edit-profile">Edit Profile</a>
+        <div class="col-xs-12 col-sm-8">
+          <h1 class="col-xs-12 page-header">{{name}}
+            <a class="col-xs-12 col-sm-3 col-md-2 btn btn-default pull-right" href="/edit-profile">Edit Profile</a>
           </h1>
           <div class="row-info">
-            <label for="inputMajor" class="control-label">Major</label> {{major}}
+            <label class="control-label">Major</label> {{major}}
           </div>
 
           <div class="row-info">
-            <label for="inputYear" class="control-label">Year</label> {{year}}
+            <label class="control-label">Year</label> {{year}}
           </div>
 
           <div class="row-info">
-            <label for="inputLocation" class="control-label">Location</label> {{location}}
+            <label class="control-label">Location</label> {{location}}
           </div>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-times">
+        <div class="col-xs-12 col-sm-4">
             <b>Tentative schedule:</b>
             {{#each days}}
             <div class="form-group">
@@ -49,12 +49,12 @@
             {{/each}}
         </div>
 
-        <div class="col-sm-8">
-            <div class="row"><label for="inputBio">Personal Bio</label><br>
+        <div class="col-xs-12 col-sm-8">
+            <div class="row"><label>Personal Bio</label><br>
 							{{bio}}
 						</div>
 
-            <div class="row"><label for="inputRoles">Team Roles</label><br>
+            <div class="row"><label>Team Roles</label><br>
 							{{roles}}
 						</div>
         </div>

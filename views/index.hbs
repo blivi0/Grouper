@@ -18,7 +18,7 @@
 	    <h1 class="page-header">Hello, {{name}}</h1>
 
 	    <div class="row placeholders">
-	    	<h4 align="center">View an existing course</h4> Pick a course from below to view peers.
+	    	<h4 align="center">View peer profiles</h4> Pick a course from below.
 	    </div>
 
 	    <div class="row placeholders">
@@ -46,12 +46,12 @@
 
 					<div class="center-block panel panel-default course-panel" id="panel{{id}}">
 						<div class="panel-heading">
-							<a href={{url}}><h3 class="panel-title">{{name}}</h3></a>
+							<h3 class="panel-title">{{name}}</h3>
 						</div>
 						<div class="panel-body">
 							<p><span class="text-muted">{{title}}</span></p>
-							<a href={{url}} class ="btn btn-primary placeholder" role="button">View course</a><br>
-							<button type="button" class ="btn btn-default btn-xs" data-toggle="modal" data-target="#{{id}}">Remove course</button>
+							<a href={{url}} class ="btn btn-primary placeholder" role="button">View Peers</a><br>
+							<button type="button" class ="btn btn-default btn-xs" data-toggle="modal" data-target="#{{id}}">Remove Course</button>
 						</div>
 					</div>
 		      	</div>
