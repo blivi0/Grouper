@@ -2,7 +2,7 @@ var data = require('../data.json');
 var shortid = require('shortid');
 
 exports.view = function(req, res) {
-  res.render('signin', { title : 'signin' });
+  res.render('signin', { title : 'Welcome to Grouper' });
 };
 
 exports.login = function(req, res) {
