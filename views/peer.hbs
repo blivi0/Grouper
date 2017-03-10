@@ -18,30 +18,30 @@
 
     <div class="peer">
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-3">
           <img src="/images/{{avatar}}" class="img-responsive">
         </div>
 
-        <div class="col-sm-8">
+        <div class="col-sm-9">
           <h1 class="page-header">{{name}}</h1>
 
           <div class="row-info">
-            <label for="inputMajor" class="control-label">Major</label> {{major}}
+            <b>Major</b> {{major}}
           </div>
 
           <div class="row-info">
-            <label for="inputYear" class="control-label">Year</label> {{year}}
+            <b>Year</b> {{year}}
           </div>
 
           <div class="row-info">
-            <label for="inputLocation" class="control-label">Location</label> {{location}}
+            <b>Location</b> {{location}}
           </div>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-times">
-            <b>Tentative schedule:</b>
+        <div class="col-sm-3">
+            <b>Tentative schedule</b>
             {{#each days}}
             <div class="form-group">
               <label>{{day}}</label> {{from}}
@@ -50,12 +50,12 @@
             {{/each}}
         </div>
 
-        <div class="col-sm-8">
-            <div class="row"><label for="inputBio">Personal Bio</label><br>
+        <div class="col-sm-9">
+            <div><b>Personal Bio</b><br>
 							{{bio}}
 						</div>
-
-            <div class="row"><label for="inputRoles">Team Roles</label><br>
+            <br>
+            <div><b>Team Roles</b><br>
 							{{roles}}
 						</div>
         </div>
