@@ -139,7 +139,9 @@ h3, .h3 {
   margin-top: 15px;
 }
 
-
+.inline-nav {
+  float: left;
+}
 
 .nav-text {
   display: inline-block;
@@ -155,3 +157,5 @@ h3, .h3 {
   float: right;
   margin-top: 7px;
 }
+
+@media ()

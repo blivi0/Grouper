@@ -3649,7 +3649,7 @@ tbody.collapse.in {
 .container-fluid > .navbar-header,
 .container-fluid > .navbar-collapse {
   margin-right: -15px;
-  margin-left: -15px; }
+  margin-left: 0; }
   @media (min-width: 768px) {
     .container > .navbar-header,
     .container > .navbar-collapse,
