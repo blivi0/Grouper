@@ -1,7 +1,7 @@
 $(document).ready(initializePage);
 
 function initializePage() {
-  $("input[type='image']").click(function(e) {
+  $("#avatar").click(function(e) {
     e.preventDefault();
     $("input[type='file']").click();
   });
