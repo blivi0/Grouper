@@ -20,6 +20,12 @@
             <p class="signin-intro">Looking for groups to join in your classes?<br/>Use Grouper to help find your best match!</p>
           </center>
 
+          {{#if loginFailed}}
+          <div class="alert alert-danger" role="alert">
+            <strong>Incorrect login</strong>
+          </div>
+          {{/if}}
+
           <div class="panel panel-login">
             <div class="panel-heading">
               <div class="row">
