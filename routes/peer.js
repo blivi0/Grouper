@@ -41,7 +41,7 @@ exports.view = function(req, res) {
     members : members,
     courseId : courseId,
     courseName : course.name,
-    courseUrl : encodeURI('/course/' + courseId)
+    courseUrl : '/course/' + courseId
   });
 };
 

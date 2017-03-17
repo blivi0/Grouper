@@ -138,3 +138,24 @@ h3, .h3 {
 .schedule {
   margin-top: 15px;
 }
+
+.inline-nav {
+  float: left;
+}
+
+.nav-text {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 6px;
+  margin-right: 1px;
+}
+
+.fish {
+  vertical-align: middle;
+  display: inline-block;
+  float: right;
+  margin-top: 7px;
+}
+
+@media ()
