@@ -2,13 +2,13 @@ var data = require('../data.json');
 var shortid = require('shortid');
 
 exports.view = function(req, res) {
-  res.render('signin', { title : 'Welcome to Grouper' });
+  res.render('signin', { title : 'Welcome to Grouper', loginFailed : false });
 };
 
 exports.login = function(req, res) {
 
   var user = data.students.find(function(s) { return s.email === req.body.email });
-console.log(user);
+  console.log(user);
 
   if (user) {
     if (data.students[0] !== user) {
@@ -17,7 +17,7 @@ console.log(user);
     }
     res.redirect('/index');
   } else {
-    res.redirect('/');
+    res.render('signin', { title : 'Welcome to Grouper', loginFailed : true });
   }
 };
 
