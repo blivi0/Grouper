@@ -3,7 +3,6 @@
 $(document).ready(function() {
 	$('select').change(updatePeerList);
 	$('.search-peer').keyup(searchFilter);
-	$(window).scroll(backToTop);
 
 	$('.peerProfile').click(function(e) {
 		ga("send", "event", "peer", "click");
@@ -54,7 +53,3 @@ function searchFilter(e) {
 		}
 	});
 };
-
-function backToTop() {
-
-}
