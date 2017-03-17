@@ -87,3 +87,18 @@ body {
 	background-color: #fc9d60;
 	border-color: #f68438;
 }
+
+#instructor-check {
+	margin-left: 10px;
+}
+
+.instructor-checkbox {
+	float: left;
+	color: #666;
+	font-size: 15px;
+}
+
+.instructor-checkbox-form {
+	border: none;
+	box-shadow: none;
+}
